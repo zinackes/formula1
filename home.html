@@ -1,0 +1,100 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Comfortaa&family=Lato&family=Montserrat&family=Open+Sans&family=Oswald&family=Poppins&family=Ubuntu:wght@400;500&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+  <link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+/>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="img_slider.css">
+    <title>Formula 1</title>
+</head>
+<body>
+
+    <!--DANS FOOTER FAIRE CREDIT:
+    <a href="https://www.flaticon.com/free-icons/f1" title="f1 icons">F1 icons created by Freepik - Flaticon</a>
+
+        EN haut de la page au niveau du titre mettre les meilleurs voitures de chaque écurie actuel!
+
+        Pour indicateur: 
+        Mettre un nombre pour chaque indicateur et ajouter/enlever 1 a celui la a chaque fois
+         qu'on switch d'image.
+         faire effet hover qui montre tous les indicateurs!
+
+-->
+
+
+    <header class="flex">
+        <div class="logo flex">
+            <img src="./images/f1.png" alt="F1 Logo">
+            <p><span style="color: red;">FORMULA 1</span><br>Enjoyers</p>
+        </div>
+        <ul class="flex">
+            <li><a href="">Home</a></li>
+            <li><a href="">Cars</a></li>
+            <li><a href="">History</a></li>
+            <li><a href="">Technology</a></li>
+            <li><a href="">Championship</a></li>
+            <li><a href="">Records</a></li>
+        </ul>
+    </header>
+
+    
+    
+
+    <main>
+
+        <div class="title" style="display: flex; justify-content: center;">
+            <div class="flex-vertical">
+                <div class="content">
+                    <i data-action="left" class='btn-chevron left bx bx-chevron-left'> <img src="./images/chevron.png" alt=""></i>
+                    <div class="slider">
+                        <img data-info="Mercedes W11 2020" class="slider-image" src="./images/W11_merco.png">
+                        <img data-info="McLaren-Honda MP4/4" class="slider-image" src="./images/mclaren_MP4.jpg">
+                        <img data-info="Ferrari F2002" class="slider-image" src="./images/Ferrari-F2002-1 .jpg">
+                        <img data-info="Red Bull RB9" class="slider-image" src="./images/redbull-rb9.jpg">
+                        <img data-info="Alpine A522" class="slider-image" src="https://sportbusiness.club/wp-content/uploads/2022/07/Alpine-F1-Team-5-Voiture.jpg">
+                        <img data-info="Alfa Romeo 158" class="slider-image" src="./images/farina-alfa-158 (1).jpg">
+                        <img data-info="Aston Martin AMR21" class="slider-image" src="./images/Sebastian_Vettel,_F1_British_Grand_Prix_2021 (1).jpg">
+                        <img data-info="AlphaTauri AT02" class="slider-image" src="./images/ALpha.jpg">
+                        <img data-info="Williams FW14B" class="slider-image" src="./images/William (1).jpg">
+                        <img data-info="Haas VF-18" class="slider-image" src="./images/haas-vf-18 (1).jpg">
+                    </div>
+                    <i data-action="right" class='btn-chevron right bx bx-chevron-right'> <img src="./images/right.png" alt=""></i>
+                    <ul class="indicateur">
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                </div>
+                <div>
+                    <p>These pictures show the best F1 cars for each actual teams</p>
+                </div>
+            </div>
+            <div style="margin-left: 60px; display: flex; justify-content: flex-start; align-items: center; flex-direction: column;">
+                <h1>A Formula 1 website fan</h1>
+                <p>This website is perfect if you wanna learn what is Formula 1
+                    or if you want to explore the differents cars of this years,
+                    the History of F1, their technology, championship and records.
+                </p>
+            </div>
+        </div>
+    </main>
+    
+</body>
+<script src="library.js"></script>
+<script src="script.js"></script>
+</html>
