@@ -67,13 +67,79 @@ btnChevron.forEach(btn => {
         if (btn.dataset.action == "right") {
             i++;
             IndicateurMini();
+            color_change_next();
             return moveImage();
         }
         i--;
         IndicateurMini();
+        color_change_next();
         return moveImage();
     })
 })
+
+function color_(){
+    let pic_number = i + 1;
+    let pic_class = "picture-" + pic_number;
+    let pic_class_remove = "picture-" + i;
+    let slider_info = document.querySelector('.slider-info');
+    let btnChevron = document.querySelectorAll(".btn-chevron");
+    for(let a = 0; a < indicateur.length; a++){
+        indicateur[a].classList.remove(pic_class_remove);
+    }
+    for(let b =0; b < btnChevron.length; b++){
+        btnChevron[b].classList.remove(pic_class_remove);
+    }
+    slider_info.classList.remove(pic_class_remove);
+
+
+    for(let a = 0; a < indicateur.length; a++){
+        indicateur[a].classList.toggle(pic_class);
+    }
+    for(let b =0; b < btnChevron.length; b++){
+        btnChevron[b].classList.toggle(pic_class);
+    }
+    slider_info.classList.toggle(pic_class);
+}
+
+
+//a optimiser//
+function color_change_next(){
+    switch(i){
+        case 0:
+            color_();
+            break;
+        case 1:
+            color_();
+            break;
+        case 2:
+            color_();
+            break;
+        case 3:
+            color_();
+            break;
+        case 4:
+            color_();
+            break;
+        case 5:
+            color_();
+            break;
+        case 6:
+            color_();
+            break;
+        case 7:
+            color_();
+            break;
+        case 8:
+            color_();
+            break;
+        case 9:
+            color_();
+            break;
+        case 10:
+            color_();
+            break;
+    }
+}
 
 function IndicateurMini(){
     for(let r = 0; r < indicateur.length; r++){

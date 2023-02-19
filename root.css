@@ -1,0 +1,88 @@
+:root{
+    --bg-picture-: var(--bg-picture);
+    --bg-arrow-: var(--bg-arrow);
+
+    --bg-picture: #18201f;
+    --bg-arrow: invert(8%) sepia(39%) saturate(311%) hue-rotate(123deg) brightness(95%) contrast(90%);
+
+    --bg-picture-2: #e36967;
+    --bg-arrow-2: invert(47%) sepia(34%) saturate(988%) hue-rotate(313deg) brightness(104%) contrast(78%);
+
+    --bg-picture-3: #f8001e;
+    --bg-arrow-3: invert(12%) sepia(87%) saturate(7005%) hue-rotate(350deg) brightness(107%) contrast(109%);
+
+    --bg-picture-4: #00008B;
+    --bg-arrow-4: invert(19%) sepia(89%) saturate(3014%) hue-rotate(236deg) brightness(54%) contrast(137%);
+
+    --bg-picture-5: #005ba9;
+    --bg-arrow-5: invert(22%) sepia(74%) saturate(2278%) hue-rotate(192deg) brightness(93%) contrast(101%);
+
+    --bg-picture-6: #cd3923;
+    --bg-arrow-6: invert(34%) sepia(77%) saturate(1892%) hue-rotate(343deg) brightness(80%) contrast(102%);
+
+    --bg-picture-7: #1e404b;
+    --bg-arrow-7: invert(20%) sepia(46%) saturate(453%) hue-rotate(148deg) brightness(102%) contrast(98%);
+
+    --bg-picture-8: #6577B3;
+    --bg-arrow-8: invert(47%) sepia(16%) saturate(1311%) hue-rotate(189deg) brightness(95%) contrast(86%);
+
+    --bg-picture-9: #414e8e;
+    --bg-arrow-9: invert(28%) sepia(39%) saturate(896%) hue-rotate(193deg) brightness(92%) contrast(87%);
+
+    --bg-picture-10: #ca2519;
+    --bg-arrow-10: invert(17%) sepia(68%) saturate(5286%) hue-rotate(356deg) brightness(84%) contrast(87%);
+}
+
+
+.picture-2{
+    --bg-picture-: var(--bg-picture-2);
+    --bg-arrow-: var(--bg-arrow-2);
+}
+
+
+.picture-3{
+    --bg-picture-: var(--bg-picture-3);
+    --bg-arrow-: var(--bg-arrow-3);
+}
+
+
+.picture-4{
+    --bg-picture-: var(--bg-picture-4);
+    --bg-arrow-: var(--bg-arrow-4);
+}
+
+
+.picture-5{
+    --bg-picture-: var(--bg-picture-5);
+    --bg-arrow-: var(--bg-arrow-5);
+}
+
+
+.picture-6{
+    --bg-picture-: var(--bg-picture-6);
+    --bg-arrow-: var(--bg-arrow-6);
+}
+
+
+.picture-7{
+    --bg-picture-: var(--bg-picture-7);
+    --bg-arrow-: var(--bg-arrow-7);
+}
+
+
+.picture-8{
+    --bg-picture-: var(--bg-picture-8);
+    --bg-arrow-: var(--bg-arrow-8);
+}
+
+
+.picture-9{
+    --bg-picture-: var(--bg-picture-9);
+    --bg-arrow-: var(--bg-arrow-9);
+}
+
+
+.picture-10{
+    --bg-picture-: var(--bg-picture-10);
+    --bg-arrow-: var(--bg-arrow-10);
+}

@@ -3,19 +3,18 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Comfortaa&family=Lato&family=Montserrat&family=Open+Sans&family=Oswald&family=Poppins&family=Ubuntu:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@500&display=swap" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
-  <link
-  rel="stylesheet"
-  href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="img_slider.css">
+    <link rel="stylesheet" href="root.css">
     <title>Formula 1</title>
 </head>
 <body>
+    </header>
 
     <!--DANS FOOTER FAIRE CREDIT:
     <a href="https://www.flaticon.com/free-icons/f1" title="f1 icons">F1 icons created by Freepik - Flaticon</a>
@@ -28,22 +27,32 @@
          faire effet hover qui montre tous les indicateurs!
 
 -->
+    
+    <div class="background_img">
 
-
-    <header class="flex">
-        <div class="logo flex">
-            <img src="./images/f1.png" alt="F1 Logo">
-            <p><span style="color: red;">FORMULA 1</span><br>Enjoyers</p>
+        <header class="flex">
+            <ul class="flex">
+                <li><a href="">Home</a></li>
+                <li><a href="">Cars</a></li>
+                <li><a href="">History</a></li>
+                <li><a href="">Technology</a></li>
+                <li><a href="">Championship</a></li>
+                <li><a href="">Records</a></li>
+            </ul>
+        </header>
+        <div class="Big_title flex-vertical">
+            <h1>The Reference Of F1</h1>
+            <p style="max-width: 400px; font-size: 20px; text-align: center; margin: 0;">
+                By exploring this website you'll learn many things
+                about F1 with a simple, modern and animated design 
+                made to find things easier. 
+            </p>
         </div>
-        <ul class="flex">
-            <li><a href="">Home</a></li>
-            <li><a href="">Cars</a></li>
-            <li><a href="">History</a></li>
-            <li><a href="">Technology</a></li>
-            <li><a href="">Championship</a></li>
-            <li><a href="">Records</a></li>
-        </ul>
-    </header>
+        <div class="background_img_info">
+            <span class="background_img_info_text">2013 season in Abu Dhabi, with Vettel leading at the start followed by Webber</span>
+            <p>Hover to learn about the image..</p>
+        </div>
+    </div>
 
     
     
@@ -92,9 +101,12 @@
                 </p>
             </div>
         </div>
+
     </main>
     
 </body>
+
+<script src="index.js"></script>
 <script src="library.js"></script>
 <script src="script.js"></script>
 </html>
