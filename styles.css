@@ -115,13 +115,12 @@ header li:hover a{
 }
 
 main{
-    padding-top: 200px;
+    padding-top: 70px;
 }
 
 
 h2{
-    font-size: 60px;
-    max-width: 500px;
+    font-size: 57px;
 }
 
 .title p {
@@ -177,9 +176,33 @@ h2{
     display: none !important;
 }
 
-.trophy{
-    background-color:#18201f;
-    padding: 0px;
-    color: #f0fff0;
+.section_text{
+    margin-left: 60px; 
+    display: flex; 
+    justify-content: flex-start; 
+    align-items: center;
+    flex-direction: column;
 }
+
+.white_section{
+    max-height: 800px;
+    padding: 50px;
+}
+
+.black_section{
+    background-color:#18201f;
+    color: #f0fff0;
+    padding: 50px;
+    max-height: 800px;
+}
+
+
+
+
+
+
+
+
+
+    
   
