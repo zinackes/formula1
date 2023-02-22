@@ -115,12 +115,11 @@ header li:hover a{
 }
 
 main{
-    padding: 100px;
     padding-top: 200px;
 }
 
 
-.title h1{
+h2{
     font-size: 60px;
     max-width: 500px;
 }
@@ -176,5 +175,11 @@ main{
 
 .no-display{
     display: none !important;
+}
+
+.trophy{
+    background-color:#18201f;
+    padding: 0px;
+    color: #f0fff0;
 }
   
