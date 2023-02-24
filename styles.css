@@ -197,6 +197,21 @@ h2{
 }
 
 
+.week_explain{
+    gap: 70px;
+    flex-wrap: wrap;
+}
+
+.week_explain h4{
+    color: #f0fff0;
+    font-weight: 500;
+}
+.week_explain p{
+    max-width: 300px;
+    height: 150px;
+}
+
+
 
 
 
