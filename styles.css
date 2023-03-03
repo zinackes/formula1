@@ -112,12 +112,14 @@ header li:hover a{
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: fixed;
+    box-shadow: rgb(202, 184, 144) 0px 1px 1px 0px inset, rgb(202, 184, 144) 0px 50px 100px -20px, rgba(0, 0, 0, 0.1) 0px 30px 60px -30px;
 }
 
-main{
-    padding-top: 70px;
+.gradient_1{
+    width: 100%;
+    background: linear-gradient(180deg, rgba(202,184,144,1) 0%, rgba(24,32,31,1) 100%); 
+    position: absolute;
 }
-
 
 h2{
     font-size: 57px;
@@ -193,13 +195,16 @@ h2{
     background-color:#18201f;
     color: #f0fff0;
     padding: 50px;
-    max-height: 800px;
 }
 
 
 .week_explain{
     gap: 70px;
     flex-wrap: wrap;
+}
+
+.week_explain img{
+    width: 90px;
 }
 
 .week_explain h4{
